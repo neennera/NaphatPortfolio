@@ -14,7 +14,7 @@
     {
         "name":"AI Builders 2022",
         "des":"AI Builders 2022 project \"Single-note music classification by Convolutional Neural Networks\" \n\n This project is an attempt to get a computer to recognize musical notes from MIDI audio files.\nIt was my first AI project that I learned how to work with. Convolutional Neural Networksas well as understanding the basics of modeling and tools that can help speed things up.such as using Dataloader, practicing Git Control Version, etc.",
-        "pic":"./picture/AIbuilder.png",
+        "pic":"./picture/AIBuilder.png",
         "url":"https://neennera.medium.com/single-note-music-classification-by-convolutional-neural-networks-5f72434d139a"
     },
     {
