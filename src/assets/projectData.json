@@ -1,45 +1,44 @@
 [
-    {
-        "name":"REACT to do list",
-        "des":"This project aimed to develop a platform that is both user-friendly and efficient for task management and daily activity organization. Users are able to create, edit, and delete tasks on the website. Additionally, a progress bar is implemented to help users track their task completion. \n\n In this website, my main focus was to utilize my React skills that I had acquired. Firstly, I transformed each element of the website, such as the to-do item, add and edit bar, and live clock, into separate React components. This approach allowed for easy reusability and independent rendering. To track variables like the array of to-do list items, time in the live clock, and progress bar, I used React's useState and useEffect hooks. Lastly, I learned to utilize props to pass values and functions between parent and child components.        \n\n For the front-end development, I utilized HTML, CSS, and JavaScript to create a simplistic and responsive user interface. The website design was centered around providing a clean and intuitive user experience.",
-        "pic":"./picture/todolist.png",
-        "url":"https://todolist-learning-progect.vercel.app/"
-    },
-    {
-        "name":"GIBBIN, web scraping bot",
-        "des":"On benefit to help my school's community access their class schedule when the school website is down, I created an open source software program called GIBBIN, an automated web scraping bot.",
-        "pic":"./picture/GIBBIN.png",
-        "url":"https://github.com/neennera/GIBBIN-Web-Scraping"
-    },
-    {
-        "name":"AI Builders 2022",
-        "des":"AI Builders 2022 project \"Single-note music classification by Convolutional Neural Networks\" \n\n This project is an attempt to get a computer to recognize musical notes from MIDI audio files.\nIt was my first AI project that I learned how to work with. Convolutional Neural Networksas well as understanding the basics of modeling and tools that can help speed things up.such as using Dataloader, practicing Git Control Version, etc.",
-        "pic":"./picture/AIBuilder.png",
-        "url":"https://neennera.medium.com/single-note-music-classification-by-convolutional-neural-networks-5f72434d139a"
-    },
-    {
-        "name":"Thailand Olypiad in Information (TOI18), silver medal",
-        "des":"For me,Thailand Olympiad Camp is learning. \n\n I learned to live with my friends. learn to understand myself And it motivated me to  being in computer engineering.\n\n As a Samsen Wittayalai School Center representative to participate in the 18th National Computer Olympiad at Chiang Mai University and was awarded a silver medal It was challenging and a good memory for one of the students.",
-        "pic":"./picture/TOI18.png",
-        "url":"-"
-    },
-    {
-        "name":"Junior Webmaster Camp 12",
-        "des":"I design webpages for social movements by participating in occasions like the Junior Webmaster Camp 12. I designed a website to serve as the hub for camp planning and high school students, making it easier for them to connect and inspire them to explore their interests. \n\n I also had make a react web call “meuk-fortune” which are a Fortune teller web page mock-up. I've used my knowledge of react components to create a more manageable code site",
-        "pic":"./picture/JWC_web.png",
-        "url":"https://jws-meuk-fortune.vercel.app/"
-    },
-    {
-        "name":"SCiUS forum",
-        "des":"My team had received a bronze medal in the project “An Automatic Cat feeder System ” that works with the Raspberry Pi 4 board.\n\nIn this project, Neen has designed and programmed into the board. to control the motor operation according to the food time data. I has also written a website, designed UX/UI for users to manage their schedule easily and conveniently across all platforms.",
-        "pic":"./picture/Forum.png",
-        "url":"-"
-    },
-    {
-        "name":"Newsletter",
-        "des":"The Newsletter project is a project to deposit academic knowledge throughout the semester and apply it as a work piece. \n\nDuring the 6th grade, I worked as a Newsletter's header. which is responsible for controlling the work Allocate duties and take care of everything. This duty allows me to practice soft skills in coordinating with friends. Both in dividing the work to the right people and following up on the work. In the end, this project was a success.",
-        "pic":"./picture/Newsletter.png",
-        "url":"https://drive.google.com/file/d/1eBgzn9Y9a-yagBjPyYOSKSxBhmRWxzGD/view?fbclid=PAAaY1LvFUNhG3qvJgfJK_NVkDu9SrAICJEnUZIdQOGZv3r0xmO5iZ-5ExyHw"
-    }
-
+  {
+    "name": "REACT to do list",
+    "des": "This project aimed to develop a platform that is both user-friendly and efficient for task management and daily activity organization. Users are able to create, edit, and delete tasks on the website. Additionally, a progress bar is implemented to help users track their task completion. \n\n In this website, my main focus was to utilize my React skills that I had acquired. Firstly, I transformed each element of the website, such as the to-do item, add and edit bar, and live clock, into separate React components. This approach allowed for easy reusability and independent rendering. To track variables like the array of to-do list items, time in the live clock, and progress bar, I used React's useState and useEffect hooks. Lastly, I learned to utilize props to pass values and functions between parent and child components.        \n\n For the front-end development, I utilized HTML, CSS, and JavaScript to create a simplistic and responsive user interface. The website design was centered around providing a clean and intuitive user experience.",
+    "pic": "./picture/todolist.png",
+    "url": "https://todolist-learning-progect.vercel.app/"
+  },
+  {
+    "name": "GIBBIN, web scraping bot",
+    "des": "On benefit to help my school's community access their class schedule when the school website is down, I created an open source software program called GIBBIN, an automated web scraping bot.",
+    "pic": "./picture/GIBBIN.png",
+    "url": "https://github.com/neennera/GIBBIN-Web-Scraping"
+  },
+  {
+    "name": "AI Builders 2022",
+    "des": "AI Builders 2022 project \"Single-note music classification by Convolutional Neural Networks\" \n\n This project is an attempt to get a computer to recognize musical notes from MIDI audio files.\nIt was my first AI project that I learned how to work with. Convolutional Neural Networksas well as understanding the basics of modeling and tools that can help speed things up.such as using Dataloader, practicing Git Control Version, etc.",
+    "pic": "./picture/AIBuilder.png",
+    "url": "https://neennera.medium.com/single-note-music-classification-by-convolutional-neural-networks-5f72434d139a"
+  },
+  {
+    "name": "Thailand Olypiad in Information (TOI18), silver medal",
+    "des": "For me,Thailand Olympiad Camp is learning. \n\n I learned to live with my friends. learn to understand myself And it motivated me to  being in computer engineering.\n\n As a Samsen Wittayalai School Center representative to participate in the 18th National Computer Olympiad at Chiang Mai University and was awarded a silver medal It was challenging and a good memory for one of the students.",
+    "pic": "./picture/TOI18.png",
+    "url": "-"
+  },
+  {
+    "name": "Junior Webmaster Camp 12",
+    "des": "I design webpages for social movements by participating in occasions like the Junior Webmaster Camp 12. I designed a website to serve as the hub for camp planning and high school students, making it easier for them to connect and inspire them to explore their interests. \n\n I also had make a react web call “meuk-fortune” which are a Fortune teller web page mock-up. I've used my knowledge of react components to create a more manageable code site",
+    "pic": "./picture/JWC_web.png",
+    "url": "https://jws-meuk-fortune.vercel.app/"
+  },
+  {
+    "name": "SCiUS forum",
+    "des": "My team had received a bronze medal in the project “An Automatic Cat feeder System ” that works with the Raspberry Pi 4 board.\n\nIn this project, Neen has designed and programmed into the board. to control the motor operation according to the food time data. I has also written a website, designed UX/UI for users to manage their schedule easily and conveniently across all platforms.",
+    "pic": "./picture/Forum.png",
+    "url": "-"
+  },
+  {
+    "name": "Newsletter",
+    "des": "The Newsletter project is a project to deposit academic knowledge throughout the semester and apply it as a work piece. \n\nDuring the 6th grade, I worked as a Newsletter's header. which is responsible for controlling the work Allocate duties and take care of everything. This duty allows me to practice soft skills in coordinating with friends. Both in dividing the work to the right people and following up on the work. In the end, this project was a success.",
+    "pic": "./picture/Newsletter.png",
+    "url": "https://drive.google.com/file/d/1eBgzn9Y9a-yagBjPyYOSKSxBhmRWxzGD/view?fbclid=PAAaY1LvFUNhG3qvJgfJK_NVkDu9SrAICJEnUZIdQOGZv3r0xmO5iZ-5ExyHw"
+  }
 ]
