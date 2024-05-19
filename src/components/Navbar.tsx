@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-0 h-[10vh] p-6 w-full bg-beight flex items-center justify-between backdrop-blur-sm border-b border-dark">
+    <div className="sticky top-0 z-50 h-[10vh] p-6 w-full flex items-center justify-between backdrop-blur-sm border-b border-dark">
       <div className="text-2xl font-bold">
         <a href="#hero">Naphat</a>
       </div>
