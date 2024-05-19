@@ -4,7 +4,7 @@ const Navbar = () => {
       <div className="text-2xl font-bold">
         <a href="#hero">Naphat</a>
       </div>
-      <div className="flex flex-row space-x-6 text-gl">
+      <div className="hidden sm:flex sm:flex-row space-x-6 text-gl">
         <a href="#aboutMe">
           <button className="hover:bg-beightDark pl-4 pr-4 pt-2 pb-2 rounded-md">
             About Me

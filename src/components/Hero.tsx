@@ -9,14 +9,14 @@ const Hero = () => {
       id="hero"
       className="flex scroll-my-10 flex-col sm:flex-row  w-full section-min-height items-center justify-between p-10"
     >
-      <div className="relative h-[90vh] w-[80vw] sm:h-[80vh] sm:w-[50vw] group">
+      <div className="relative h-[40vh] w-[80vw] sm:h-[80vh] sm:w-[50vw] group">
         <img
           src={neen_pf}
-          className="absolute top-20 left-40 h-[400px] rounded-xl rotate-[-5deg] group-hover:rotate-[-7deg]"
+          className="absolute sm:top-20 sm:left-40 sm:h-[400px] h-[300px] rounded-xl rotate-[-5deg] group-hover:rotate-[-7deg]"
         />
         <img
           src={github_pf}
-          className="absolute top-72 left-[53%] w-[200px] h-[200px] rounded-full rotate-3 group-hover:rotate-6"
+          className="absolute sm:top-72 sm:left-[53%] sm:h-[200px] h-[120px] top-56 left-48  rounded-full rotate-3 group-hover:rotate-6"
         />
       </div>
       <div className="flex flex-col space-y-10">
