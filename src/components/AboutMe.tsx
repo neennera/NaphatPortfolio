@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div
       id="aboutMe"
-      className="flex text-lg scroll-my-10 py-[4vw] flex-col w-full items-start p-10 section-min-height space-y-2"
+      className="flex text-lg scroll-my-10 py-[4vw] flex-col w-full items-start p-10 section-min-height space-y-1"
     >
       <p className="text-5xl font-bold">About Me</p>
       <div className="flex flex-col sm:flex-row w-full items-start justify-between pt-5 space-y-5">
@@ -18,7 +18,7 @@ const AboutMe = () => {
             primary interest is Web development and Machine Learning.
           </p>
 
-          <div className="flex flex-col space-y-3 pt-20">
+          <div className="flex flex-col space-y-3 pt-2 sm:pt-20">
             <p className="text-2xl font-bold">My currently works</p>
             <ul className="space-y-2">
               <li className="list-disc ml-10">
@@ -49,7 +49,7 @@ const AboutMe = () => {
 
           <div className="flex flex-col space-y-3">
             <p className="text-2xl font-bold">Badges</p>
-            <div className="flex flex-row space-x-3">
+            <div className="flex flex-row space-x-3 overflow-auto">
               <img
                 src={Badge_Google1}
                 alt="advanced data anlysis"
