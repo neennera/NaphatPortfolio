@@ -1,7 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { useState } from 'react';
+
 const Contact = () => {
+  const [showCopied, setShowCopied] = useState(false);
+
+  const handleGmailClick = () => {
+    const neenGmail = 'neennera@gmail.com';
+    navigator.clipboard.writeText(neenGmail).then(() => {
+      setShowCopied(true);
+      setTimeout(() => {
+        setShowCopied(false);
+      }, 3000);
+    });
+  };
+
   return (
     <div
       id="contact"
@@ -9,12 +23,18 @@ const Contact = () => {
     >
       <p className="text-5xl font-bold">Contact Me</p>
       <div className="flex flex-col space-y-8 md:w-[50%] sm:w-[70%] justify-between">
-        <a href="" target="_blank">
-          <button className="flex flex-row items-center button-50 w-[80vw] md:w-[35vw]  py-3 rounded-lg border border-primary drop-shadow-lg sm:hover:w-[38vw] sm:hover:ml-3 hover:bg-primary hover:text-black transition-all duration-300 text-start">
-            <FontAwesomeIcon icon={faEnvelope} className="pl-5 size-5" />
-            <p className="pl-5">Email</p>
-          </button>
-        </a>
+        <button
+          className="flex flex-row items-center button-50 w-[80vw] md:w-[35vw]  py-3 rounded-lg border border-primary drop-shadow-lg sm:hover:w-[38vw] sm:hover:ml-3 hover:bg-primary hover:text-black transition-all duration-300 text-start"
+          onClick={handleGmailClick}
+        >
+          <FontAwesomeIcon icon={faEnvelope} className="pl-5 size-5" />
+          <p className="pl-5">Email : neennera@gmail.com</p>
+          {showCopied && (
+            <div className="ml-4 flex bg-green-700 text-beight w-20  rounded items-center justify-center">
+              <p>Copied</p>
+            </div>
+          )}
+        </button>
         <a href="https://www.linkedin.com/in/naphat-serirak/" target="_blank">
           <button className="flex flex-row items-center button-50 md:w-[35vw] w-[80vw]  py-3 rounded-lg border border-primary drop-shadow-lg sm:hover:w-[38vw] sm:hover:ml-3 hover:bg-primary hover:text-black transition-all duration-300 text-start">
             <FontAwesomeIcon icon={faLinkedin} className="pl-5 size-5" />

@@ -5,7 +5,7 @@
     "title": "Head of Integral Bee Challenge 2024",
     "info": "I organized the calculus competition for the Faculty of Engineering and Science, as well as the examination event for the Intania Open House. I managed this project with a team of twelve members for 200 students participating.",
     "width": "w-[60vw] sm:w-[50vw] ",
-    "image" : "integralBee"
+    "image": "integralBee"
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "title": "Julist's dev team",
     "info": "Julist is a tech-legal startup, I work with my web development team as a Frontend role to deliverate a website. [Tools : svelt framework, tailwindcss]",
     "width": "w-[60vw] sm:w-[40vw]",
-    "image" : "julist"
+    "image": "julist"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "title": "JWC13 frontend dev",
     "info": "I work with team to decorate JWC register website, using TypeScript",
     "width": "w-[60vw] sm:w-[15vw]",
-    "image" : "jwc13"
+    "image": "jwc13"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "title": "University experience",
     "info": "Planing staff of engineering department’s Langear camp, Stage staff of engineering department’s bynior night.",
     "width": "w-[60vw] sm:w-[15vw]",
-    "image" : "langear"
+    "image": "langear"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "title": "Inner of Academic team, ESC",
     "info": "Assist in organizing academic events of the faculty like Intania Job Fair 2024, Intania Open House, etc.",
     "width": "w-[60vw] sm:w-[40vw]",
-    "image" : "integralBee2"
+    "image": "integralBee2"
   },
   {
     "id": 5,
@@ -45,6 +45,6 @@
     "title": "High School Experience",
     "info": "Head of Arts club at ESC KMUTT, Head of classroom’s Newsletter project",
     "width": "w-[60vw] sm:w-[15vw]",
-    "image" : "highSchoolPic"
+    "image": "highSchoolPic"
   }
 ]

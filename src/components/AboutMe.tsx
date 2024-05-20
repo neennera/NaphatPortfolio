@@ -45,7 +45,8 @@ const AboutMe = () => {
                 <b>Data Analysis : </b> Spreadsheet, Data Visuallization, SQL, R
               </li>
               <li className="list-disc ml-10">
-                <b>English : </b> Advanced working proficiency English (TOEIC 835)
+                <b>English : </b> Advanced working proficiency English (TOEIC
+                835)
               </li>
             </ul>
           </div>
