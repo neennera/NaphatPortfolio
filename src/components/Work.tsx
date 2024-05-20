@@ -2,7 +2,7 @@ const Work = () => {
   return (
     <div
       id="works"
-      className="flex scroll-my-10 py-[4vw] flex-col sm:flex-row w-full section-min-height items-start justify-between p-10 space-y-"
+      className="flex scroll-my-10 py-[4vw] flex-col sm:flex-row w-full lg:section-min-height items-start justify-between p-10 space-y-"
     >
       <div className="space-y-10">
         <p className="text-5xl font-bold">Works</p>
