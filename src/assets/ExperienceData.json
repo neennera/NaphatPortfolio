@@ -4,7 +4,7 @@
     "subtitle": "The calculus compatition in chulalongkorn, Engineering Faculty",
     "title": "Head of Integral Bee Challenge 2024",
     "info": "I organized the calculus competition for the Faculty of Engineering and Science, as well as the examination event for the Intania Open House. I managed this project with a team of twelve members for 200 students participating.",
-    "width": "w-[60vw] sm:w-[40vw]",
+    "width": "w-[60vw] sm:w-[50vw] ",
     "image" : "/src/assets/image/exp/integralBee.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "subtitle": "frontend web dev",
     "title": "Julist's dev team",
     "info": "Julist is a tech-legal startup, I work with my web development team as a Frontend role to deliverate a website. [Tools : svelt framework, tailwindcss]",
-    "width": "w-[60vw] sm:w-[20vw]",
+    "width": "w-[60vw] sm:w-[40vw]",
     "image" : "/src/assets/image/exp/julist.png"
   },
   {
@@ -20,7 +20,7 @@
     "subtitle": "JWC IMA cabin's member",
     "title": "JWC13 frontend dev",
     "info": "I work with team to decorate JWC register website, using TypeScript",
-    "width": "w-[60vw] sm:w-[20vw]",
+    "width": "w-[60vw] sm:w-[15vw]",
     "image" : "/src/assets/image/exp/jwc13.png"
   },
   {
@@ -28,7 +28,7 @@
     "subtitle": "Other work during university",
     "title": "University experience",
     "info": "Planing staff of engineering department’s Langear camp, Stage staff of engineering department’s bynior night.",
-    "width": "w-[60vw] sm:w-[20vw]",
+    "width": "w-[60vw] sm:w-[15vw]",
     "image" : "/src/assets/image/exp/langear.jpg"
   },
   {
@@ -44,7 +44,7 @@
     "subtitle": "Other work during high school",
     "title": "High School Experience",
     "info": "Head of Arts club at ESC KMUTT, Head of classroom’s Newsletter project",
-    "width": "w-[60vw] sm:w-[20vw]",
+    "width": "w-[60vw] sm:w-[15vw]",
     "image" : "/src/assets/image/exp/highSchool.jpg"
   }
 ]
