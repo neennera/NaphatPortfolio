@@ -7,6 +7,7 @@ interface ItemInterface {
   title: string;
   info: string;
   width: string;
+  image : string;
 }
 
 const Experience_Card = () => {
@@ -20,16 +21,24 @@ const Experience_Card = () => {
       <div className="relative sm:absolute flex flex-wrap sm:px-6 justify-center">
         {items.map(item => (
           <motion.div
-            className={`h-[25vh] rounded drop-shadow-lg shadow-gray-600 cursor-pointer bg-beight  hover:bg-gray-200 p-3 my-2 sm:m-2 ${item.width}`}
+            className={`overflow-hidden h-[25vh] rounded drop-shadow-lg shadow-gray-600 cursor-pointer bg-beight  hover:bg-gray-200 my-2 sm:m-2 ${item.width} group`}
             layoutId={item.id.toString()}
             onClick={() => setSelectedId(item.id)}
           >
-            <motion.h2 className="text-md sm:text-xl font-semibold">
-              {item.title}
-            </motion.h2>
-            <motion.h5 className="text-sm sm:text-lg">
-              {item.subtitle}
-            </motion.h5>
+            <div className="absolute flex-1 flex flex-col justify-end p-4 z-20">
+              <motion.h2 className="text-md sm:text-xl font-semibold group-hover:text-white">
+                {item.title}
+              </motion.h2>
+              <motion.h5 className="text-sm sm:text-lg group-hover:text-white">
+                {item.subtitle}
+              </motion.h5>
+            </div>
+            
+            <img
+              src={item.image}
+              className="absolute z-2 h-full w-full object-cover opacity-15 group-hover:opacity-60"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </motion.div>
         ))}
       </div>
@@ -37,20 +46,23 @@ const Experience_Card = () => {
       {/* blury background */}
       <AnimatePresence>
         {selectedId !== null && selectedItem && (
-          <div className="hidden sm:block sm:absolute backdrop-blur-sm w-full h-[60vh] t-0 l-0"></div>
+          <div className="hidden sm:block sm:absolute backdrop-blur-sm w-full h-[65vh] t-0 l-0"></div>
         )}
       </AnimatePresence>
       {/* card on display */}
       <AnimatePresence>
         {selectedId !== null && selectedItem && (
           <motion.div
-            className="hidden sm:absolute drop-shadow-lg shadow-gray-600 border-3 bg-beightDark rounded-md  w-[60vw] md:h-[40vh] sm:flex flex-row justify-between left-[15%] top-[300%] p-8"
+            className="hidden sm:absolute overflow-auto pb-5 drop-shadow-lg shadow-gray-600 border-3 bg-beightDark rounded-md  w-[60vw] md:h-[50vh] sm:flex flex-row justify-between left-[15%] top-[300%] p-8"
             layoutId={selectedId.toString()}
           >
+            
+
             <div className='pr-5 space-y-3 w-[95%]'>
               <motion.h2 className="text-xl font-semibold">
                 {selectedItem.title}
               </motion.h2>
+              <img src={selectedItem.image} className='h-[65%] w-full object-cover'/>
               <motion.h5 className='text-lg'>{selectedItem.info}</motion.h5>
             </div>
 
