@@ -33,12 +33,18 @@ const Experience_Card = () => {
                 {item.subtitle}
               </motion.h5>
             </div>
+
+        
             
             <img
               src={item.image}
               className="absolute z-2 h-full w-full object-cover opacity-15 group-hover:opacity-60"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+            <div className='absolute text-dark bg-beight sm:opacity-0 opacity-100 z-40 inset-0 hidden p-2 h-full w-full text-sm overflow-scroll group-hover:block'>
+              {item.info}
+            </div>
           </motion.div>
         ))}
       </div>
