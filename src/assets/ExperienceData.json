@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "subtitle": "Head of Integral Bee Challenge 2024",
+    "title": "Head of Integral Bee",
+    "info": "I work at this project",
+    "width": "w-[60vw] sm:w-[40vw]"
+  },
+  {
+    "id": 1,
+    "subtitle": "AAAAAA",
+    "title": "BBBB",
+    "info": "CCCCCCCCCCC",
+    "width": "w-[60vw] sm:w-[20vw]"
+  },
+  {
+    "id": 2,
+    "subtitle": "AAAAAA",
+    "title": "BBBB",
+    "info": "CCCCCCCCCCC",
+    "width": "w-[60vw] sm:w-[20vw]"
+  },
+  {
+    "id": 3,
+    "subtitle": "AAAAAA",
+    "title": "BBBB",
+    "info": "CCCCCCCCCCC",
+    "width": "w-[60vw] sm:w-[20vw]"
+  },
+  {
+    "id": 4,
+    "subtitle": "AAAAAA",
+    "title": "BBBB",
+    "info": "CCCCCCCCCCC",
+    "width": "w-[60vw] sm:w-[40vw]"
+  },
+  {
+    "id": 5,
+    "subtitle": "AAAAAA",
+    "title": "BBBB",
+    "info": "CCCCCCCCCCC",
+    "width": "w-[60vw] sm:w-[20vw]"
+  }
+]
