@@ -2,8 +2,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import github_pf from '../assets/image/github_pf.jpg';
 import neen_pf from '../assets/image/neen_pf.jpg';
+import Resume_Naphat_2024 from '../assets/Resume_Naphat_2024.pdf';
 
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = Resume_Naphat_2024;
+    link.download = 'Resume_Naphat_2024.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div
       id="hero"
@@ -27,8 +37,11 @@ const Hero = () => {
             I'm a second-year Computer Engineering student at Chulalongkorn
             University.
           </p>
-          <div className="flex flex-row pt-10 space-x-7 text-sm sm:text-md">
-            <button className="w-[40vw] sm:w-[15vw] p-3 bg-primary rounded-xl text-white">
+          <div className="flex flex-row pt-10 space-x-7 text-md sm:text-md">
+            <button
+              onClick={handleDownload}
+              className="w-[40vw] sm:w-[15vw] p-3 bg-primary rounded-xl text-white"
+            >
               Dowload My Resume{' '}
               <FontAwesomeIcon className="pl-2" icon={faDownload} />
             </button>

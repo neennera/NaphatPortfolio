@@ -1,12 +1,12 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import ExperienceData from '../assets/ExperienceData.json';
-import integralBee from '../assets/image/exp/integralBee.jpg'
-import integralBee2 from '../assets/image/exp/integralBee2.jpg'
-import jwc13 from '../assets/image/exp/jwc13.png'
-import julist from '../assets/image/exp/julist.png'
-import highSchoolPic from '../assets/image/exp/highSchoolPic.jpg'
-import langear from '../assets/image/exp/langear.jpg'
+import integralBee from '../assets/image/exp/integralBee.jpg';
+import integralBee2 from '../assets/image/exp/integralBee2.jpg';
+import jwc13 from '../assets/image/exp/jwc13.png';
+import julist from '../assets/image/exp/julist.png';
+import highSchoolPic from '../assets/image/exp/highSchoolPic.jpg';
+import langear from '../assets/image/exp/langear.jpg';
 
 interface ItemInterface {
   id: number;
@@ -14,7 +14,7 @@ interface ItemInterface {
   title: string;
   info: string;
   width: string;
-  image : string;
+  image: string;
 }
 
 type ImageMap = {
@@ -32,7 +32,7 @@ const images: ImageMap = {
   jwc13: jwc13,
   julist: julist,
   highSchoolPic: highSchoolPic,
-  langear: langear
+  langear: langear,
 };
 
 const Experience_Card = () => {
@@ -50,7 +50,6 @@ const Experience_Card = () => {
             layoutId={item.id.toString()}
             onClick={() => setSelectedId(item.id)}
           >
-
             <div className="absolute flex-1 flex flex-col justify-end p-4 z-20">
               <motion.h2 className="text-md sm:text-2xl font-semibold text-primary group-hover:text-white">
                 {item.title}
@@ -60,15 +59,13 @@ const Experience_Card = () => {
               </motion.h5>
             </div>
 
-        
-            
             <img
               src={images[item.image as keyof ImageMap]}
               className="absolute z-2 h-full w-full object-cover opacity-50 group-hover:opacity-70"
             />
             <div className="absolute h-[30vh] z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-100 group-hover:opacity-70 transition-opacity duration-300"></div>
 
-            <div className='absolute text-dark bg-beight sm:opacity-0 opacity-100 z-40 inset-0 hidden p-2 h-full w-full text-sm overflow-scroll group-hover:block'>
+            <div className="absolute text-dark bg-beight sm:opacity-0 opacity-100 z-40 inset-0 hidden p-2 h-full w-full text-sm overflow-scroll group-hover:block">
               {item.info}
             </div>
           </motion.div>
@@ -88,20 +85,22 @@ const Experience_Card = () => {
             className="hidden sm:absolute overflow-auto pb-5 drop-shadow-lg shadow-gray-600 border-3 bg-beightDark rounded-md  w-[60vw] md:h-[50vh] sm:flex flex-row justify-between left-[15%] top-[300%] p-8"
             layoutId={selectedId.toString()}
           >
-            
-
-            <div className='pr-5 space-y-3 w-[95%]'>
+            <div className="pr-5 space-y-3 w-[95%]">
               <motion.h2 className="text-2xl font-semibold">
                 {selectedItem.title}
               </motion.h2>
-              <img src={selectedItem.image} className='h-[65%] w-full object-cover'/>
-              <motion.h5 className='text-lg'>{selectedItem.info}</motion.h5>
+              <img
+                src={images[selectedItem.image as keyof ImageMap]}
+                className="h-[65%] w-full object-cover"
+              />
+              <motion.h5 className="text-lg">{selectedItem.info}</motion.h5>
             </div>
 
             <motion.button
               className="bg-primary w-10 h-10 hover:text-white items-center justify-center rounded-sm"
               onClick={() => setSelectedId(null)}
-            >X
+            >
+              X
             </motion.button>
           </motion.div>
         )}
