@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div
       id="aboutMe"
-      className="flex text-lg scroll-my-10 py-[4vw] flex-col w-full items-start p-10 section-min-height space-y-1"
+      className="flex text-lg scroll-my-10 py-[4vw] flex-col w-full items-start p-10 lg:section-min-height space-y-1"
     >
       <p className="text-5xl font-bold">About Me</p>
       <div className="flex flex-col sm:flex-row w-full items-start justify-between pt-5 space-y-5">
@@ -19,7 +19,7 @@ const AboutMe = () => {
           </p>
 
           <div className="flex flex-col space-y-3 pt-2 sm:pt-20">
-            <p className="text-2xl font-bold">My currently works</p>
+            <p className="text-2xl font-bold">👩🏻‍🏭 My current works</p>
             <ul className="space-y-2">
               <li className="list-disc ml-10">
                 Julist’s frontend web developer team
@@ -43,6 +43,9 @@ const AboutMe = () => {
               </li>
               <li className="list-disc ml-10">
                 <b>Data Analysis : </b> Spreadsheet, Data Visuallization, SQL, R
+              </li>
+              <li className="list-disc ml-10">
+                <b>English : </b> Advanced working proficiency English (TOEIC 835)
               </li>
             </ul>
           </div>
