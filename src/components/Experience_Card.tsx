@@ -26,10 +26,10 @@ const Experience_Card = () => {
             onClick={() => setSelectedId(item.id)}
           >
             <div className="absolute flex-1 flex flex-col justify-end p-4 z-20">
-              <motion.h2 className="text-md sm:text-xl font-semibold group-hover:text-white">
+              <motion.h2 className="text-md sm:text-2xl font-semibold text-primary group-hover:text-white">
                 {item.title}
               </motion.h2>
-              <motion.h5 className="text-sm sm:text-lg group-hover:text-white">
+              <motion.h5 className="text-sm sm:text-lg text-white">
                 {item.subtitle}
               </motion.h5>
             </div>
@@ -38,9 +38,9 @@ const Experience_Card = () => {
             
             <img
               src={item.image}
-              className="absolute z-2 h-full w-full object-cover opacity-15 group-hover:opacity-60"
+              className="absolute z-2 h-full w-full object-cover opacity-50 group-hover:opacity-70"
             />
-            <div className="absolute z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute h-[30vh] z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-100 group-hover:opacity-70 transition-opacity duration-300"></div>
 
             <div className='absolute text-dark bg-beight sm:opacity-0 opacity-100 z-40 inset-0 hidden p-2 h-full w-full text-sm overflow-scroll group-hover:block'>
               {item.info}
@@ -65,7 +65,7 @@ const Experience_Card = () => {
             
 
             <div className='pr-5 space-y-3 w-[95%]'>
-              <motion.h2 className="text-xl font-semibold">
+              <motion.h2 className="text-2xl font-semibold">
                 {selectedItem.title}
               </motion.h2>
               <img src={selectedItem.image} className='h-[65%] w-full object-cover'/>

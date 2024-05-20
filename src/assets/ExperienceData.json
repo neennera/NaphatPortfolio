@@ -13,7 +13,7 @@
     "title": "Julist's dev team",
     "info": "Julist is a tech-legal startup, I work with my web development team as a Frontend role to deliverate a website. [Tools : svelt framework, tailwindcss]",
     "width": "w-[60vw] sm:w-[20vw]",
-    "image" : "/src/assets/image/exp/integralBee.jpg"
+    "image" : "/src/assets/image/exp/julist.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "title": "JWC13 frontend dev",
     "info": "I work with team to decorate JWC register website, using TypeScript",
     "width": "w-[60vw] sm:w-[20vw]",
-    "image" : "/src/assets/image/exp/integralBee.jpg"
+    "image" : "/src/assets/image/exp/jwc13.png"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "title": "University experience",
     "info": "Planing staff of engineering department’s Langear camp, Stage staff of engineering department’s bynior night.",
     "width": "w-[60vw] sm:w-[20vw]",
-    "image" : "/src/assets/image/exp/integralBee.jpg"
+    "image" : "/src/assets/image/exp/langear.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "title": "Inner of Academic team, ESC",
     "info": "Assist in organizing academic events of the faculty like Intania Job Fair 2024, Intania Open House, etc.",
     "width": "w-[60vw] sm:w-[40vw]",
-    "image" : "/src/assets/image/exp/integralBee.jpg"
+    "image" : "/src/assets/image/exp/integralBee2.jpg"
   },
   {
     "id": 5,
@@ -45,6 +45,6 @@
     "title": "High School Experience",
     "info": "Head of Arts club at ESC KMUTT, Head of classroom’s Newsletter project",
     "width": "w-[60vw] sm:w-[20vw]",
-    "image" : "/src/assets/image/exp/integralBee.jpg"
+    "image" : "/src/assets/image/exp/highSchool.jpg"
   }
 ]
