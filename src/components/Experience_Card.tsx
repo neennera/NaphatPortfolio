@@ -20,7 +20,7 @@ const Experience_Card = () => {
       <div className="relative sm:absolute flex flex-wrap sm:px-6 justify-center">
         {items.map(item => (
           <motion.div
-            className={`h-[25vh] rounded bg-beightDark p-3 my-2 sm:m-2 ${item.width}`}
+            className={`h-[25vh] rounded bg-beight p-3 my-2 sm:m-2 ${item.width}`}
             layoutId={item.id.toString()}
             onClick={() => setSelectedId(item.id)}
           >
@@ -37,14 +37,14 @@ const Experience_Card = () => {
       {/* blury background */}
       <AnimatePresence>
         {selectedId !== null && selectedItem && (
-          <div className="hidden sm:absolute backdrop-blur-sm w-full h-[60vh] t-0 l-0"></div>
+          <div className="hidden sm:block sm:absolute backdrop-blur-sm w-full h-[60vh] t-0 l-0"></div>
         )}
       </AnimatePresence>
       {/* card on display */}
       <AnimatePresence>
         {selectedId !== null && selectedItem && (
           <motion.div
-            className="hidden sm:absolute  bg-beightDark rounded-md  w-[60vw] md:h-[40vh] flex flex-row justify-between left-[15%] top-[300%] p-8"
+            className="hidden sm:absolute  bg-beightDark rounded-md  w-[60vw] md:h-[40vh] sm:flex flex-row justify-between left-[15%] top-[300%] p-8"
             layoutId={selectedId.toString()}
           >
             <div>
@@ -58,8 +58,6 @@ const Experience_Card = () => {
               className="bg-primary w-8 h-8 hover:text-white"
               onClick={() => setSelectedId(null)}
             >
-              {' '}
-              X{' '}
             </motion.button>
           </motion.div>
         )}
