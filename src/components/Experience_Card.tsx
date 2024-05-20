@@ -1,6 +1,13 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import ExperienceData from '../assets/ExperienceData.json';
+import integralBee from '../assets/image/exp/integralBee.jpg'
+import integralBee2 from '../assets/image/exp/integralBee2.jpg'
+import jwc13 from '../assets/image/exp/jwc13.png'
+import julist from '../assets/image/exp/julist.png'
+import highSchoolPic from '../assets/image/exp/highSchoolPic.jpg'
+import langear from '../assets/image/exp/langear.jpg'
+
 interface ItemInterface {
   id: number;
   subtitle: string;
@@ -9,6 +16,24 @@ interface ItemInterface {
   width: string;
   image : string;
 }
+
+type ImageMap = {
+  integralBee: string;
+  integralBee2: string;
+  jwc13?: string;
+  julist?: string;
+  highSchoolPic?: string;
+  langear?: string;
+};
+
+const images: ImageMap = {
+  integralBee: integralBee,
+  integralBee2: integralBee2,
+  jwc13: jwc13,
+  julist: julist,
+  highSchoolPic: highSchoolPic,
+  langear: langear
+};
 
 const Experience_Card = () => {
   const [selectedId, setSelectedId] = useState<number | null>(null);
@@ -38,7 +63,7 @@ const Experience_Card = () => {
         
             
             <img
-              src={item.image}
+              src={images[item.image as keyof ImageMap]}
               className="absolute z-2 h-full w-full object-cover opacity-50 group-hover:opacity-70"
             />
             <div className="absolute h-[30vh] z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-100 group-hover:opacity-70 transition-opacity duration-300"></div>
