@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col sm:flex-row w-full items-start justify-between p-10 pt-14 pb-5 bg-dark text-white"
+      className="flex flex-col sm:flex-row w-full items-start justify-between p-10 pt-14 pb-5 bg-dark text-white space-y-5"
     >
       <p className="text-5xl font-bold">Contact Me</p>
       <div className="flex flex-col space-y-8 md:w-[50%] sm:w-[70%] justify-between">
@@ -17,13 +17,13 @@ const Contact = () => {
         </a>
         <a href="https://www.linkedin.com/in/naphat-serirak/" target="_blank">
           <button className="flex flex-row items-center button-50 md:w-[35vw] w-[80vw]  py-3 rounded-lg border border-primary drop-shadow-lg sm:hover:w-[38vw] sm:hover:ml-3 hover:bg-primary hover:text-black transition-all duration-300 text-start">
-            <FontAwesomeIcon icon={faEnvelope} className="pl-5 size-5" />
+            <FontAwesomeIcon icon={faLinkedin} className="pl-5 size-5" />
             <p className="pl-5">Linkedin</p>
           </button>
         </a>
         <a href="https://github.com/neennera/" target="_blank">
           <button className="flex flex-row items-center button-50 md:w-[35vw] w-[80vw]  py-3 rounded-lg border border-primary drop-shadow-lg sm:hover:w-[38vw] sm:hover:ml-3 hover:bg-primary hover:text-black transition-all duration-300 text-start">
-            <FontAwesomeIcon icon={faEnvelope} className="pl-5 size-5" />
+            <FontAwesomeIcon icon={faGithub} className="pl-5 size-5" />
             <p className="pl-5">GitHub</p>
           </button>
         </a>
