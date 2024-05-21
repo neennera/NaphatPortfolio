@@ -1,11 +1,20 @@
+import WorksData from '../assets/WorksData.json';
+
+interface WorksInterface {
+  name: string;
+  skill: Array<string>;
+  image: string;
+  desc: string;
+  link: string;
+}
+
 const Work_projectName = () => {
+  const Works: WorksInterface[] = WorksData;
   return (
-    <div>
-      <div>
-        <p>jdfkjads</p>
-        <p>jdfkjads</p>
-        <p>jdfkjads</p>
-      </div>
+    <div className="hidden sm:block">
+      {Works.map((work, index) => (
+        <p key={index}>{work.name}</p>
+      ))}
     </div>
   );
 };
