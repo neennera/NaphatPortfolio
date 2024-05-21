@@ -11,7 +11,7 @@ interface WorksInterface {
 const Work_projectName = () => {
   const Works: WorksInterface[] = WorksData;
   return (
-    <div id="workSidebar" className="hidden w-[40%] sm:block space-y-10">
+    <div id="workSidebar" className="hidden w-[40%] sm:block space-y-5">
       <p className="text-5xl font-bold ">Works</p>
       {Works.map((work, index) => (
         <div key={index} className="text-lg ml-8 ">

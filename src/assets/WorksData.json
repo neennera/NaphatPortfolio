@@ -26,5 +26,26 @@
     "image": "Todo",
     "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
     "link": "https://todolist-learning-progect.vercel.app/"
+  },
+  {
+    "name": "GIBBIN, web scraping bot",
+    "skill": ["Python", "Bot", "Scraping"],
+    "image": "gibbin",
+    "desc": "To help my school's community access their class schedule when the school website is down, I created GIBBIN, an automated web scraping bot.",
+    "link": "https://github.com/neennera/GIBBIN-Web-Scraping"
+  },
+  {
+    "name": "To do List in React",
+    "skill": ["React", "Frontend"],
+    "image": "Todo",
+    "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
+    "link": "https://todolist-learning-progect.vercel.app/"
+  },
+  {
+    "name": "To do List in React",
+    "skill": ["React", "Frontend"],
+    "image": "Todo",
+    "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
+    "link": "https://todolist-learning-progect.vercel.app/"
   }
 ]

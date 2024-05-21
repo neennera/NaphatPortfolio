@@ -28,14 +28,16 @@ const Work_projectDisplay = () => {
   };
 
   return (
-    <div id="workContent" className="flex flex-col items-center justify-center w-[90%] sm:w-[60%] space-y-16 sm:space-y-20">
+    <div id="workContent" className="flex flex-col items-center justify-center w-full sm:w-[60%] space-y-16 sm:space-y-20">
+      <p className="block sm:hidden text-5xl font-bold ">Works</p>
+      
       {Works.map((work, index) => (
         <div
           key={index}
           id={`work-${index}`}
-          className="flex flex-col items-center justify-center space-y-4 sm:space-y-3 scroll-my-24"
+          className="flex flex-col mb-20 items-center justify-center space-y-4 sm:space-y-3 scroll-my-24"
         >
-          <div className="bg-beightDark w-[450px] h-[300px] rounded-3xl items-center justify-center flex">
+          <div className="bg-beightDark w-[85vw] sm:w-[450px] h-[300px] rounded-3xl items-center justify-center flex">
             {work.image}
           </div>
           <p className="text-xl font-bold pt-5">{work.name}</p>
