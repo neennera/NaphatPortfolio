@@ -12,7 +12,7 @@ const Contact = () => {
       setShowCopied(true);
       setTimeout(() => {
         setShowCopied(false);
-      }, 3000);
+      }, 1000);
     });
   };
 

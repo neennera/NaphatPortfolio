@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Survive The Tiger",
+    "skill": ["React", "TypeScript"],
+    "image": "Tiger",
+    "desc": "This is an interactive game from TypeScript with React components. Player could play this 1-min game and track their ending progress store in localStorage.",
+    "link": "https://tiger-quiz.vercel.app/"
+  },
+  {
+    "name": "CPmon game website",
+    "skill": ["API", "MongoDB", "JS", "HTML/CSS"],
+    "image": "CPmon",
+    "desc": "Turn-base game in web appication project. Code in vanila JavaScript, HTML ans CSS for frontend. Use mongoDB for backend.",
+    "link": "https://github.com/neennera/CPmon"
+  },
+  {
+    "name": "Witch's Garden",
+    "skill": ["Java", "Game development"],
+    "image": "Witch",
+    "desc": "2D indie game implemented by pure Java. Using OOP programming, Thread, interface etc.",
+    "link": "https://www.youtube.com/watch?v=jiAvBtDjQqI&t=149s"
+  },
+  {
+    "name": "To do List in React",
+    "skill": ["React", "Frontend"],
+    "image": "Todo",
+    "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
+    "link": "https://todolist-learning-progect.vercel.app/"
+  },
+  {
+    "name": "GIBBIN, web scraping bot",
+    "skill": ["Python", "Bot", "Scraping"],
+    "image": "GIBBIN",
+    "desc": "To help my school's community access their class schedule when the school website is down, I created GIBBIN, an automated web scraping bot.",
+    "link": "https://github.com/neennera/GIBBIN-Web-Scraping"
+  },
+  {
+    "name": "TOI18, silver medel",
+    "skill": ["Competitive C++", "C/C++", "Algorithm"],
+    "image": "TOI18",
+    "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
+    "link": "https://github.com/neennera/Cpp_Algorithm"
+  },
+  {
+    "name": "AI Builders 2022",
+    "skill": ["AI", "CNN", "pattern"],
+    "image": "AIBuilder",
+    "desc": "AI Builders 2022 project \"Single-note music classification by Convolutional Neural Networks\"  This project is an attempt to get a computer to recognize musical notes from MIDI audio files.",
+    "link": "https://neennera.medium.com/single-note-music-classification-by-convolutional-neural-networks-5f72434d139a"
+  }
+]

@@ -1,16 +1,40 @@
+import { useEffect } from 'react';
 import Work_projectDisplay from './Work_projectDisplay';
 import Work_projectName from './Work_projectName';
 
 const Work = () => {
+  useEffect(() => {
+    const sidebar = document.getElementById('workSidebar');
+    const content = document.getElementById('workContent');
+
+    window.onscroll = () => {
+      const scrollTop = window.scrollY;
+      const viewportHeight = window.innerHeight;
+      const contentHeight = content?.getBoundingClientRect().height || 0;
+      const sidebarHeight = sidebar?.getBoundingClientRect().height || 0;
+      const contentTop = content?.getBoundingClientRect().top || 0;
+      const contentButtom = content?.getBoundingClientRect().bottom || 0;
+
+      if (sidebar != null) {
+        if (
+          scrollTop >= contentTop + viewportHeight + sidebarHeight &&
+          scrollTop <= contentHeight + contentButtom + viewportHeight + 100
+        ) {
+          sidebar.style.marginTop = `${scrollTop - 2 * viewportHeight}px`;
+          sidebar.style.paddingTop = '15vh';
+        } else {
+          sidebar.style.marginTop = ``;
+          sidebar.style.paddingTop = ``;
+        }
+      }
+    };
+  }, []);
   return (
     <div
       id="works"
-      className="flex scroll-my-10 py-[4vw] flex-col sm:flex-row w-full lg:section-min-height items-start justify-between p-10 space-y-"
+      className="flex scroll-my-10 py-[4vw] flex-col sm:flex-row w-full lg:section-min-height items-start justify-between p-10 space-y-5"
     >
-      <div className="space-y-10">
-        <p className="text-5xl font-bold">Works</p>
-        <Work_projectName />
-      </div>
+      <Work_projectName />
       <Work_projectDisplay />
     </div>
   );
