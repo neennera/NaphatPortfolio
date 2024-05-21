@@ -12,18 +12,11 @@ const Work = () => {
       const viewportHeight = window.innerHeight;
       const contentHeight = (content?.getBoundingClientRect().height || 0 )
 
-      if (sidebar != null) {       
-        console.log(scrollTop);
-        
-        if (scrollTop >= contentHeight - viewportHeight && scrollTop <= contentHeight + (2*viewportHeight)) {
-          sidebar.style.translate = `translateY(${viewportHeight - sidebar.offsetHeight}px)`;
-          sidebar.style.marginTop = `12vh`;
-          sidebar.style.position = "fixed";
+      if (sidebar != null) {               
+        if (scrollTop >= contentHeight - viewportHeight +200 && scrollTop <= contentHeight + (2*viewportHeight) - 100) {
+          sidebar.style.marginTop = `${scrollTop - (2*viewportHeight) + 10}px`;
         } else {
-          console.log("out");
-          sidebar.style.translate = ``;
           sidebar.style.marginTop = ``;
-          sidebar.style.position = "relative";
         }
       }
     }

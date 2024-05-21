@@ -11,10 +11,10 @@ interface WorksInterface {
 const Work_projectName = () => {
   const Works: WorksInterface[] = WorksData;
   return (
-    <div id="workSidebar" className="hidden bg-black w-[40%] sm:block ml-5 space-y-10">
+    <div id="workSidebar" className="hidden w-[40%] sm:block space-y-10">
       <p className="text-5xl font-bold ">Works</p>
       {Works.map((work, index) => (
-        <div key={index} className="text-lg">
+        <div key={index} className="text-lg ml-8 ">
           <a href={`#work-${index}`}>{work.name}</a>
         </div>
       ))}
