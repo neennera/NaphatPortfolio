@@ -30,21 +30,21 @@
   {
     "name": "GIBBIN, web scraping bot",
     "skill": ["Python", "Bot", "Scraping"],
-    "image": "gibbin",
+    "image": "GIBBIN",
     "desc": "To help my school's community access their class schedule when the school website is down, I created GIBBIN, an automated web scraping bot.",
     "link": "https://github.com/neennera/GIBBIN-Web-Scraping"
   },
   {
     "name": "TOI18, silver medel",
     "skill": ["Competitive C++", "C/C++", "Algorithm"],
-    "image": "TOI",
+    "image": "TOI18",
     "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
     "link": "https://github.com/neennera/Cpp_Algorithm"
   },
   {
     "name": "AI Builders 2022",
     "skill": ["AI", "CNN", "pattern"],
-    "image": "AI",
+    "image": "AIBuilder",
     "desc": "AI Builders 2022 project \"Single-note music classification by Convolutional Neural Networks\"  This project is an attempt to get a computer to recognize musical notes from MIDI audio files.",
     "link": "https://neennera.medium.com/single-note-music-classification-by-convolutional-neural-networks-5f72434d139a"
   }
