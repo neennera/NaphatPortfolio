@@ -35,17 +35,17 @@
     "link": "https://github.com/neennera/GIBBIN-Web-Scraping"
   },
   {
-    "name": "To do List in React",
-    "skill": ["React", "Frontend"],
-    "image": "Todo",
+    "name": "TOI18, silver medel",
+    "skill": ["Competitive C++", "C/C++", "Algorithm"],
+    "image": "TOI",
     "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
-    "link": "https://todolist-learning-progect.vercel.app/"
+    "link": "https://github.com/neennera/Cpp_Algorithm"
   },
   {
-    "name": "To do List in React",
-    "skill": ["React", "Frontend"],
-    "image": "Todo",
-    "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
-    "link": "https://todolist-learning-progect.vercel.app/"
+    "name": "AI Builders 2022",
+    "skill": ["AI", "CNN", "pattern"],
+    "image": "AI",
+    "desc": "AI Builders 2022 project \"Single-note music classification by Convolutional Neural Networks\"  This project is an attempt to get a computer to recognize musical notes from MIDI audio files.",
+    "link": "https://neennera.medium.com/single-note-music-classification-by-convolutional-neural-networks-5f72434d139a"
   }
 ]

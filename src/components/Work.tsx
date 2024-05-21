@@ -13,14 +13,15 @@ const Work = () => {
       const contentHeight = content?.getBoundingClientRect().height || 0 
       const sidebarHeight = sidebar?.getBoundingClientRect().height || 0 
       const contentTop  = content?.getBoundingClientRect().top || 0;
+      const contentButtom  = content?.getBoundingClientRect().bottom || 0;
 
       if (sidebar != null) {                       
-        if (scrollTop >= contentTop + viewportHeight + sidebarHeight && scrollTop <= contentHeight + (2* viewportHeight) - sidebarHeight ) {
-          // sidebar.style.marginTop = `${scrollTop - (2*viewportHeight) + (sidebarHeight/5)}px`;
+          if (scrollTop >= contentTop + viewportHeight + sidebarHeight && scrollTop <= contentHeight + contentButtom + viewportHeight + 100) {
           sidebar.style.marginTop = `${scrollTop - (2*viewportHeight)}px`;
           sidebar.style.paddingTop = '15vh'
         } else {           
           sidebar.style.marginTop = ``;
+          sidebar.style.paddingTop = ``;
         }
       }
     }
