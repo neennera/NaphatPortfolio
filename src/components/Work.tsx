@@ -21,11 +21,9 @@ const Work = () => {
           scrollTop >= contentTop + viewportHeight + sidebarHeight &&
           scrollTop <= experienceTop + viewportHeight + contentHeight - (sidebarHeight/2)
         ) {
-          sidebar.style.marginTop = `${scrollTop - 2 * viewportHeight}px`;
-          sidebar.style.paddingTop = '15vh';
+          sidebar.style.marginTop = `${scrollTop - viewportHeight - sidebarHeight}px`;
         } else {
           sidebar.style.marginTop = ``;
-          sidebar.style.paddingTop = ``;
         }
       }
     };
