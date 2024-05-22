@@ -41,7 +41,8 @@
 }
 
 @keyframes upAndDown {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -54,6 +55,10 @@
 }
 
 .heroMain {
-  background-image: radial-gradient(circle at 1px 1px, rgb(198, 194, 196) 1.5px, transparent 0);
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgb(198, 194, 196) 1.5px,
+    transparent 0
+  );
   background-size: 50px 30px;
 }
