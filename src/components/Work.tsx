@@ -6,6 +6,7 @@ const Work = () => {
   useEffect(() => {
     const sidebar = document.getElementById('workSidebar');
     const content = document.getElementById('workContent');
+    const experience = document.getElementById('experience');
 
     window.onscroll = () => {
       const scrollTop = window.scrollY;
@@ -13,12 +14,12 @@ const Work = () => {
       const contentHeight = content?.getBoundingClientRect().height || 0;
       const sidebarHeight = sidebar?.getBoundingClientRect().height || 0;
       const contentTop = content?.getBoundingClientRect().top || 0;
-      const contentButtom = content?.getBoundingClientRect().bottom || 0;
+      const experienceTop = experience?.getBoundingClientRect().top || 0;
 
       if (sidebar != null) {
         if (
           scrollTop >= contentTop + viewportHeight + sidebarHeight &&
-          scrollTop <= contentHeight + contentButtom + viewportHeight + 100
+          scrollTop <= experienceTop + viewportHeight + contentHeight - (sidebarHeight/2)
         ) {
           sidebar.style.marginTop = `${scrollTop - 2 * viewportHeight}px`;
           sidebar.style.paddingTop = '15vh';
