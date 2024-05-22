@@ -48,10 +48,11 @@ const Experience_Card = () => {
           <motion.div
             className={`overflow-hidden h-[25vh] ${item.width} rounded drop-shadow-lg shadow-gray-600 cursor-pointer bg-beight  hover:bg-gray-200 my-2 sm:m-1 group`}
             layoutId={item.id.toString()}
-            onClick={() =>{
+            onClick={() => {
               console.log(item.id);
-              
-              setSelectedId(item.id)}}
+
+              setSelectedId(item.id);
+            }}
           >
             <div className="overflow-hidden absolute flex-1 flex flex-col justify-end p-4 z-20">
               <motion.h2 className="text-md sm:text-2xl font-semibold text-black">

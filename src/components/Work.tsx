@@ -19,13 +19,14 @@ const Work = () => {
       if (sidebar != null) {
         if (
           scrollTop >= contentTop + viewportHeight + sidebarHeight &&
-          scrollTop <= experienceTop + viewportHeight + contentHeight - (sidebarHeight/2)
+          scrollTop <=
+            experienceTop + viewportHeight + contentHeight - sidebarHeight / 5
         ) {
-          sidebar.style.marginTop = `${scrollTop - 2 * viewportHeight}px`;
-          sidebar.style.paddingTop = '15vh';
+          sidebar.style.position = 'sticky';
+          sidebar.style.top = '12vh';
         } else {
-          sidebar.style.marginTop = ``;
-          sidebar.style.paddingTop = ``;
+          sidebar.style.position = '';
+          sidebar.style.top = '';
         }
       }
     };
