@@ -46,9 +46,12 @@ const Experience_Card = () => {
       <div className="relative sm:absolute flex flex-wrap justify-start left-5 sm:left-0 sm:justify-center w-[60vw] sm:w-[95vw]">
         {items.map(item => (
           <motion.div
-            className={`overflow-hidden h-[25vh] ${item.width} rounded drop-shadow-lg shadow-gray-600 cursor-pointer bg-beight  hover:bg-gray-200 my-2 sm:m-1 group`}
+            className={`overflow-clip h-[25vh] ${item.width} rounded drop-shadow-lg shadow-gray-600 cursor-pointer bg-beight  hover:bg-gray-200 my-2 sm:m-1 group`}
             layoutId={item.id.toString()}
-            onClick={() => setSelectedId(item.id)}
+            onClick={() =>{
+              console.log(item.id);
+              
+              setSelectedId(item.id)}}
           >
             <div className="absolute flex-1 flex flex-col justify-end p-4 z-20">
               <motion.h2 className="text-md sm:text-2xl font-semibold text-primary group-hover:text-white">
