@@ -7,3 +7,58 @@
     min-height: calc(100vh - 10vh);
   }
 }
+
+@keyframes rotateOscillateLeft {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+.rotating-left {
+  animation: rotateOscillateLeft 2s infinite;
+}
+
+@keyframes rotateOscillateRight {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.rotating-right {
+  animation: rotateOscillateRight 2s infinite;
+}
+
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the value as needed */
+  }
+}
+
+.upAndDown {
+  animation: upAndDown 2s infinite;
+}
+
+.heroMain {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgb(198, 194, 196) 1.5px,
+    transparent 0
+  );
+  background-size: 50px 30px;
+}

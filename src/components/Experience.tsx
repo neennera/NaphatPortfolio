@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="flex scroll-my-10 flex-col w-full md:section-min-height items-start justify-start p-10 space-y-10"
+      className="flex scroll-my-10 flex-col w-full section-min-height items-start justify-start p-10 space-y-10"
     >
       <div className="flex flex-col sm:flex-row space-x-4 items-end space-y-3">
         <p className="text-5xl font-bold">Experience</p>
