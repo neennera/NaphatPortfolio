@@ -48,24 +48,28 @@ const Experience_Card = () => {
           <motion.div
             className={`overflow-hidden h-[25vh] ${item.width} rounded drop-shadow-lg shadow-gray-600 cursor-pointer bg-beight  hover:bg-gray-200 my-2 sm:m-1 group`}
             layoutId={item.id.toString()}
-            onClick={() => setSelectedId(item.id)}
+            onClick={() => {
+              console.log(item.id);
+
+              setSelectedId(item.id);
+            }}
           >
-            <div className="absolute flex-1 flex flex-col justify-end p-4 z-20">
-              <motion.h2 className="text-md sm:text-2xl font-semibold text-primary group-hover:text-white">
+            <div className="overflow-hidden absolute flex-1 flex flex-col justify-end p-4 z-20">
+              <motion.h2 className="text-md sm:text-2xl font-semibold text-black">
                 {item.title}
               </motion.h2>
-              <motion.h5 className="text-sm sm:text-lg text-white">
+              <motion.h5 className="text-sm sm:text-lg text-black">
                 {item.subtitle}
               </motion.h5>
             </div>
 
             <img
               src={images[item.image as keyof ImageMap]}
-              className="absolute z-2 h-full w-full object-cover opacity-50 group-hover:opacity-70"
+              className="overflow-hidden absolute z-2 h-full w-full object-cover opacity-20 group-hover:opacity-30"
             />
-            <div className="absolute h-[30vh] z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-100 group-hover:opacity-70 transition-opacity duration-300"></div>
+            {/* <div className="overflow-hidden absolute h-[30vh] z-2 inset-0 bg-gradient-to-t from-transparent to-black opacity-100 group-hover:opacity-70 transition-opacity duration-300"></div> */}
 
-            <div className="absolute text-dark bg-beight sm:opacity-0 opacity-100 z-40 inset-0 hidden p-2 h-full w-full text-sm overflow-scroll group-hover:block">
+            <div className=" absolute text-dark bg-beight sm:opacity-0 opacity-100 z-40 inset-0 hidden p-2 h-full w-full text-sm overflow-scroll group-hover:block">
               {item.info}
             </div>
           </motion.div>
