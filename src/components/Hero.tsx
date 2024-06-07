@@ -38,7 +38,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex flex-col space-y-10">
+      <div className="flex z-20 flex-col space-y-10">
         <div className="flex flex-col space-y-3 w-[80vw] sm:w-[40vw]">
           <p className="text-xl">👋🏻 Hi, This is ...</p>
           <p className="text-7xl">Naphat Serirak</p>

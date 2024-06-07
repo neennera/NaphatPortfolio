@@ -38,7 +38,7 @@
     "name": "TOI18, silver medel",
     "skill": ["Competitive C++", "C/C++", "Algorithm"],
     "image": "TOI18",
-    "desc": "This project can create, edit, and delete tasks with a progress bar for tracking. I used React with useState and useEffect",
+    "desc": "I learned about competitive programming in C++ language. Using varity of data structure, algorithm and learn to deal with bunch of bugs.",
     "link": "https://github.com/neennera/Cpp_Algorithm"
   },
   {
