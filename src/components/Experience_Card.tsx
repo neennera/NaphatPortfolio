@@ -41,7 +41,7 @@ const Experience_Card = () => {
   const selectedItem = items.find(item => item.id === selectedId);
 
   return (
-    <div className="relative sm:absolute w-[60vw] sm:w-[95vw] pt-8">
+    <div className="relative sm:absolute w-[60vw] sm:w-[95vw] pt-8 ">
       {/* all exp card*/}
       <div className="relative sm:absolute flex flex-wrap justify-start left-5 sm:left-0 sm:justify-center w-[60vw] sm:w-[95vw]">
         {items.map(item => (
