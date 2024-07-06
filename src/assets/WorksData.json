@@ -1,5 +1,12 @@
 [
   {
+    "name": "DiGi Market",
+    "skill": ["Full-Stack", "Next.js", "TypeScript"],
+    "image": "DiGiMarket",
+    "desc": "🛒Full-stack website project by Next.js framwork. A digital marketplace where you can be a customer and shop. Find your products and buy it here",
+    "link": "https://di-gi-market.vercel.app/"
+  },
+  {
     "name": "Survive The Tiger",
     "skill": ["React", "TypeScript"],
     "image": "Tiger",
