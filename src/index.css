@@ -56,9 +56,9 @@
 
 .heroMain {
   background-image: radial-gradient(
-    circle at 1px 1px,
-    rgb(198, 194, 196) 1.5px,
+    circle at 2px 2px,
+    rgb(99, 99, 99) 1.5px,
     transparent 0
   );
-  background-size: 50px 30px;
+  background-size: 100px 100px;
 }

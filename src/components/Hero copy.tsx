@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="heroMain text-white flex space-y-20 flex-col sm:flex-row  w-full section-min-height items-center justify-between"
+      className="heroMain flex scroll-my-10 space-y-20 flex-col sm:flex-row  w-full section-min-height items-center justify-between p-10"
     >
       <div className="upAndDown absolute w-full h-[90vh] inset-0 top-[10vh]">
         <div className="absolute w-3 h-3 top-[5%] sm:top-[28%] left-[30%] bg-violet-400 rounded-md " />

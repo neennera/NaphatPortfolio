@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div
       id="aboutMe"
-      className="flex text-lg scroll-my-10 py-[4vw] flex-col w-full items-start p-10 lg:section-min-height space-y-1"
+      className="flex text-lg scroll-my-10 py-[4vw] flex-col w-full items-start p-10 lg:section-min-height space-y-1 bg-white"
     >
       <p className="text-5xl font-bold">About Me</p>
       <div className="flex flex-col sm:flex-row w-full items-start justify-between pt-5 space-y-5">

@@ -69,7 +69,7 @@ const Work_projectDisplay = () => {
           id={`work-${index}`}
           className="flex flex-col pb-20 items-center justify-center space-y-4 sm:space-y-3 scroll-my-24"
         >
-          <div className="w-[85vw] sm:w-[550px] h-[300px] rounded-3xl items-center justify-center flex">
+          <div className="w-[85vw] sm:w-[400px] lg:w-[550px] sm:h-[250px] lg:h-[300px] rounded-3xl items-center justify-center flex">
             <img
               src={images[work.image as keyof ImageMap]}
               className="z-2 h-full object-cover rounded-md drop-shadow-xl"
@@ -79,7 +79,7 @@ const Work_projectDisplay = () => {
           <div className="flex flex-row space-x-3 text-sm">
             {work.skill.map(skill => (
               <div
-                className={`font-bold drop-shadow-sm shadow-black+ h-[35px]flex items-center justify-center p-2 rounded-xl ${handleNewColor()}`}
+                className={`font-bold drop-shadow-sm shadow-black h-[35px]flex items-center justify-center p-2 rounded-xl ${handleNewColor()}`}
               >
                 {skill}
               </div>

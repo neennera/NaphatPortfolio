@@ -34,7 +34,7 @@ const Work = () => {
   return (
     <div
       id="works"
-      className="flex scroll-my-10 py-[4vw] flex-col sm:flex-row w-full lg:section-min-height items-start justify-between p-10 space-y-5"
+      className="flex text-white scroll-my-10 py-[4vw] flex-col sm:flex-row w-full lg:section-min-height items-start justify-between p-10 space-y-5"
     >
       <Work_projectName />
       <Work_projectDisplay />
