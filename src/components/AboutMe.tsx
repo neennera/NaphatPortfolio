@@ -14,20 +14,24 @@ const AboutMe = () => {
       <div className="flex flex-col sm:flex-row w-full items-start justify-between pt-5 space-y-5">
         <div className="flex flex-col items-start justify-center w-[90%] sm:w-[70%] space-y-4 sm:space-y-2">
           <p className="text-mxl w-[80%]">
-            I'm a Computer Engineering student at Chulalongkorn University. My
-            primary interest is Web development and Machine Learning.
+            I'm a Second Year Computer Engineering student at Chulalongkorn
+            University. My primary interest is Web development and Project
+            Management.
           </p>
 
           <div className="flex flex-col space-y-3 pt-2 sm:pt-20">
             <p className="text-2xl font-bold">👩🏻‍🏭 My current works</p>
             <ul className="space-y-2">
               <li className="list-disc ml-10">
-                Julist’s frontend web developer team
+                IT team, member of Engineering Student Council (ESC)
+              </li>
+              <li className="list-disc ml-10">
+                Project Manager and Backend Dev of Larngear 24 Camp
+              </li>
+              <li className="list-disc ml-10">
+                PixelMath C++ Conpetitive Programming Tutor
               </li>
               <li className="list-disc ml-10">JWC13 IMA team (frontend dev)</li>
-              <li className="list-disc ml-10">
-                Co-founder of The Blitz, Online tutoring business
-              </li>
             </ul>
           </div>
         </div>
@@ -39,7 +43,10 @@ const AboutMe = () => {
                 <b>Programming : </b> C++, Python, Java, JavaScript
               </li>
               <li className="list-disc ml-10">
-                <b>Web development : </b> React, TypeScript, TailwindCSS
+                <b>Web development (Front) : </b> Next.js, React, TypeScript
+              </li>
+              <li className="list-disc ml-10">
+                <b>Web development (Back) : </b> PostgressSQL, Prisma
               </li>
               <li className="list-disc ml-10">
                 <b>Data Analysis : </b> Spreadsheet, Data Visuallization, SQL, R

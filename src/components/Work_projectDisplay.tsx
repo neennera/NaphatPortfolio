@@ -7,6 +7,7 @@ import Todo from '../assets/image/work/Todo.png';
 import TOI18 from '../assets/image/work/TOI18.png';
 import Witch from '../assets/image/work/Witch.png';
 import DiGiMarket from '../assets/image/work/DiGiMarket.png';
+import TinkerBread from '../assets/image/work/TinkerBread.png';
 type ImageMap = {
   Tiger?: string;
   CPmon?: string;
@@ -16,6 +17,7 @@ type ImageMap = {
   TOI18?: string;
   Witch?: string;
   DiGiMarket?: string;
+  TinkerBread?: string;
 };
 
 const images: ImageMap = {
@@ -27,6 +29,7 @@ const images: ImageMap = {
   TOI18: TOI18,
   Witch: Witch,
   DiGiMarket: DiGiMarket,
+  TinkerBread: TinkerBread,
 };
 
 interface WorksInterface {

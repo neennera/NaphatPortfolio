@@ -1,19 +1,19 @@
 [
   {
     "id": 0,
-    "subtitle": "The calculus compatition in chulalongkorn, Engineering Faculty",
-    "title": "Head of Integral Bee Challenge 2024",
-    "info": "I organized the calculus competition for the Faculty of Engineering and Science, as well as the examination event for the Intania Open House. I managed this project with a team of twelve members for 200 students participating.",
+    "subtitle": "Member of Engineering Student Council (ESC67)",
+    "title": "IT Team, ESC 67",
+    "info": "Be a part of team in Intania form, Intania888, OR67, Tech Website Project. My most pround project is Intania form which I handdle API for get and post form data to implement form website.",
     "width": "w-[60vw] sm:w-[50vw] ",
-    "image": "integralBee"
+    "image": "ESC"
   },
   {
     "id": 1,
-    "subtitle": "frontend web dev",
-    "title": "Julist's dev team",
-    "info": "Julist is a tech-legal startup, I work with my web development team as a Frontend role to deliverate a website. [Tools : svelt framework, tailwindcss]",
-    "width": "w-[60vw] sm:w-[40vw]",
-    "image": "julist"
+    "subtitle": "Project Manager and Backend Dev",
+    "title": "Larngear 24 Camp's IT team.",
+    "info": " Project Manager and Backend Developer of of ‘Larngear passport website’ using Elysia and Next.js Framework.  Frontend Developer and story writer of ‘Gem of Your Soul’ interective quiz.",
+    "width": "w-[60vw] sm:w-[40vw] ",
+    "image": "Larngear"
   },
   {
     "id": 2,
@@ -25,11 +25,11 @@
   },
   {
     "id": 3,
-    "subtitle": "Other work during university",
-    "title": "University experience",
-    "info": "Planing staff of engineering department’s Langear camp, Stage staff of engineering department’s bynior night.",
+    "subtitle": "The calculus compatition Host",
+    "title": "Head of Integral Bee 2024",
+    "info": "I organized the calculus competition for the Faculty of Engineering and Science, as well as the examination event for the Intania Open House. I managed this project with a team of twelve members for 200 students participating.",
     "width": "w-[60vw] sm:w-[15vw]",
-    "image": "langear"
+    "image": "integralBee"
   },
   {
     "id": 4,

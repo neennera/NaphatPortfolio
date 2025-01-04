@@ -3,10 +3,11 @@ import { useState } from 'react';
 import ExperienceData from '../assets/ExperienceData.json';
 import integralBee from '../assets/image/exp/integralBee.jpg';
 import integralBee2 from '../assets/image/exp/integralBee2.jpg';
+import ESC from '../assets/image/exp/ESC.png';
 import jwc13 from '../assets/image/exp/jwc13.png';
 import julist from '../assets/image/exp/julist.png';
 import highSchoolPic from '../assets/image/exp/highSchoolPic.jpg';
-import langear from '../assets/image/exp/langear.jpg';
+import Larngear from '../assets/image/exp/Larngear.jpg';
 
 interface ItemInterface {
   id: number;
@@ -18,21 +19,23 @@ interface ItemInterface {
 }
 
 type ImageMap = {
-  integralBee: string;
-  integralBee2: string;
+  integralBee?: string;
+  ESC?: string;
   jwc13?: string;
   julist?: string;
   highSchoolPic?: string;
-  langear?: string;
+  Larngear?: string;
+  integralBee2?: string;
 };
 
 const images: ImageMap = {
   integralBee: integralBee,
-  integralBee2: integralBee2,
+  ESC: ESC,
   jwc13: jwc13,
   julist: julist,
   highSchoolPic: highSchoolPic,
-  langear: langear,
+  Larngear: Larngear,
+  integralBee2: integralBee2,
 };
 
 const Experience_Card = () => {
@@ -41,7 +44,7 @@ const Experience_Card = () => {
   const selectedItem = items.find(item => item.id === selectedId);
 
   return (
-    <div className="relative sm:absolute w-[60vw] sm:w-[95vw] pt-8 ">
+    <div className="relative sm:absolute w-[60vw] sm:w-[95vw] pt-8">
       {/* all exp card*/}
       <div className="relative sm:absolute flex flex-wrap justify-start left-5 sm:left-0 sm:justify-center w-[60vw] sm:w-[95vw]">
         {items.map(item => (

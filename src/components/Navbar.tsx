@@ -6,22 +6,22 @@ const Navbar = () => {
       </div>
       <div className="hidden sm:flex sm:flex-row space-x-6 text-gl">
         <a href="#aboutMe">
-          <button className="hover:bg-beightDark pl-4 pr-4 pt-2 pb-2 rounded-md">
+          <button className="hover:bg-beightDark hover:text-black pl-4 pr-4 pt-2 pb-2 rounded-md">
             About Me
           </button>
         </a>
         <a href="#works">
-          <button className="hover:bg-beightDark pl-4 pr-4 pt-2 pb-2 rounded-md">
+          <button className="hover:bg-beightDark pl-4 pr-4 pt-2 pb-2 rounded-md hover:text-black">
             Works
           </button>
         </a>
         <a href="#experience">
-          <button className="hover:bg-beightDark pl-4 pr-4 pt-2 pb-2 rounded-md">
+          <button className="hover:bg-beightDark pl-4 pr-4 pt-2 pb-2 rounded-md hover:text-black">
             Experience
           </button>
         </a>
         <a href="#contact">
-          <button className="bg-primary pl-4 pr-4 pt-2 pb-2 rounded-md drop-shadow-lg text-white">
+          <button className="bg-primary pl-4 pr-4 pt-2 pb-2 rounded-md drop-shadow-lg text-white hover:text-black">
             Contact
           </button>
         </a>
