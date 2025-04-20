@@ -8,6 +8,8 @@ import TOI18 from '../assets/image/work/TOI18.png';
 import Witch from '../assets/image/work/Witch.png';
 import DiGiMarket from '../assets/image/work/DiGiMarket.png';
 import TinkerBread from '../assets/image/work/TinkerBread.png';
+import Somchai from '../assets/image/work/Somchai.png';
+import Sandcastle from '../assets/image/work/Sandcastle.webp';
 type ImageMap = {
   Tiger?: string;
   CPmon?: string;
@@ -18,6 +20,8 @@ type ImageMap = {
   Witch?: string;
   DiGiMarket?: string;
   TinkerBread?: string;
+  Somchai?: string;
+  Sandcastle?: string;
 };
 
 const images: ImageMap = {
@@ -30,6 +34,8 @@ const images: ImageMap = {
   Witch: Witch,
   DiGiMarket: DiGiMarket,
   TinkerBread: TinkerBread,
+  Somchai: Somchai,
+  Sandcastle: Sandcastle,
 };
 
 interface WorksInterface {
@@ -37,7 +43,8 @@ interface WorksInterface {
   skill: Array<string>;
   image: string;
   desc: string;
-  link: string;
+  link?: string;
+  url?: string;
 }
 
 const Work_projectDisplay = () => {

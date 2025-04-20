@@ -1,5 +1,19 @@
 [
   {
+    "name": "Somchai's Funeral",
+    "skill": ["Three.js", "3D", "Next.js"],
+    "image": "Somchai",
+    "desc": "3D web experience honoring Somchai's life through meaningful objects. Built with Three.js, React, and Tailwind CSS.",
+    "url": "https://somchai-funeral.vercel.app/"
+  },
+  {
+    "name": "Thai Sandcastle",
+    "skill": ["SvelteKit", "MongoDB"],
+    "image": "Sandcastle",
+    "desc": "This Songkran, let's decorate a sand pagoda! Choose your favorite sand pile & your Thai style items. Using sveltekit and mongoDB",
+    "url": "https://neennera.medium.com/sandcastle-website-for-songkran-festival-in-just-5-days-99e445a2aafd"
+  },
+  {
     "name": "TinkerBread",
     "skill": ["Backend", "PostgressSQL", "Prisma", "Next.js"],
     "image": "TinkerBread",

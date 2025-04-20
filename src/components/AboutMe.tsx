@@ -23,6 +23,12 @@ const AboutMe = () => {
             <p className="text-2xl font-bold">👩🏻‍🏭 My current works</p>
             <ul className="space-y-2">
               <li className="list-disc ml-10">
+                Head IT of FE camp 18, the learning management system website
+              </li>
+              <li className="list-disc ml-10">
+                Project Manager of langear 24 Camp's IT team
+              </li>
+              <li className="list-disc ml-10">
                 IT team, member of Engineering Student Council (ESC)
               </li>
               <li className="list-disc ml-10">
