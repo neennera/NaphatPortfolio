@@ -20,7 +20,7 @@ const AboutMe = () => {
           </p>
 
           <div className="flex flex-col space-y-3 pt-2 sm:pt-20">
-            <p className="text-2xl font-bold">👩🏻‍🏭 My current works</p>
+            <p className="text-2xl font-bold">👩🏻‍🏭 My highlight works</p>
             <ul className="space-y-2">
               <li className="list-disc ml-10">
                 Head IT of FE camp 18, the learning management system website
